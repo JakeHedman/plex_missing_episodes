@@ -44,7 +44,7 @@ def main():
         try:
             tvdb_show = tvdb[show]
         except:
-            print "Show named \"", show, "\"not found on TVDB"
+            print "Show named \"" + show + "\" not found on TVDB"
             continue
 
         for season in tvdb_show:

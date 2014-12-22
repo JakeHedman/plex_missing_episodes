@@ -2,7 +2,7 @@
 from setuptools import setup
 
 setup(
-    version='0.1',
+    version='0.1.1',
     name = "plex_missing_episodes",
     packages = ['plex_missing_episodes'],
     description='Torrent RSS downloader',
